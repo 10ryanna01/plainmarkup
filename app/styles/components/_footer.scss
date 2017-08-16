@@ -2,17 +2,38 @@
 // begin footer
 ///////////////////////////////////
 
-.section--footer {
-	  
-	#top-link-block.affix-top {
+ .footer--wrapper{
+ 
+background: $theme--lightgrey;
+padding: 150px 30px;
+ 
+border-top:1px solid black;
 
-		/* allows it to "slide" up into view */
-		bottom: 0px; /* negative of the offset - height of link element */
-		left: 0px; /* padding from the left side of the window */
-	}
-	#top-link-block.affix { 
-		/* keeps it on the bottom once in view */
-		bottom: 0px; /* height of link element */
-		left: 0px; /* padding from the left side of the window */
-	}
+
+
+.footer--menu{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    	float: left;
+.footer--menu--listitem{
+    display: inline-block;
+
+.footer--menu--listitem--link{
+	color: $theme--darkgrey;
+	text-transform: capitalize;
 }
+}
+
+
+}
+
+.footer--logo{
+	float: right;
+}
+
+ 
+ 
+
+// ennd footer wrapper
+ }

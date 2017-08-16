@@ -1,9 +1,47 @@
 // ===================================
 
-//utilties
+//utilties and place holders
 
 // ===================================
+ 
 
+%utility--position--relative {
+position: relative;
+}
+
+%utility--border {
+border: 3px solid red;
+}
+
+%utility--text-capitalize {
+ text-transform: capitalize;
+}
+ 
+
+%utility--text-uppercase {
+  text-transform: uppercase;
+}
+
+
+.utility--text-capitalize{
+  @extend %utility--text-capitalize;
+}
+
+
+.utility--text-uppercase{
+  @extend %utility--text-uppercase;
+}
+
+
+.utility--position--relative{
+  @extend %utility--position--relative;
+}
+
+.utility--border {
+ @extend %utility--border;
+}
+
+ 
 
 .width--full{
 width:100%;

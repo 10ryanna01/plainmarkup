@@ -1,0 +1,26 @@
+///////////////////
+//buttons stylings
+///////////////////
+
+
+.button{
+	
+
+	&--next {
+background: $theme--green;
+color: $theme--white;
+	border: 0;
+	outline: none;
+	padding: 10px 15px;
+	margin:0;
+text-align: center;
+
+	}
+
+&--prev { }
+
+
+}
+
+
+

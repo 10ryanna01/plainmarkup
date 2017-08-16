@@ -1,13 +1,61 @@
 /// header Bem styles go here
 
-.header {
-	 
-	overflow: hidden;
 
-	.header--logo {
-	 
+
+
+.header--stripe--blue {
+	@extend .utility--position--relative;
+
+	&:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		height: 10px;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: blue;
 	}
-	.header--logo--image {
-		width: 155px;
+}
+
+.header--wrapper {
+	
+	.header--letterhead {
+		// insertstyles 
+		.letterhead--stripe--blue  {
+			@extend .utility--position--relative;
+
+			&:before {
+				content: " ";
+				display: block;
+				position: absolute;
+				height: 30px;
+				width: 50px;
+				top: 0;
+				left: 2px;
+				background: blue;
+			}
+		}
+		.header--letterhead--graphic {
+			display: inline;
+			vertical-align: middle;
+			width: 30px;
+			padding-left: 30px;
+		}
+		.header--letterhead--title {
+			padding-top: 5px;
+			display: inline;
+		}
 	}
+
+//end letter head
+
+	.header--title {
+		.header--title--text {
+			&:first-letter {
+				@extend .utility--text-uppercase;
+			}
+		}
+	}
+// close header
 }
