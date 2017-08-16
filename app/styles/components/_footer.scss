@@ -2,38 +2,28 @@
 // begin footer
 ///////////////////////////////////
 
- .footer--wrapper{
- 
-background: $theme--lightgrey;
-padding: 150px 30px;
- 
-border-top:1px solid black;
+.footer--wrapper {
+	background: $theme--lightgrey;
+	padding: 150px 30px;
+	border-top: 1px solid black;
 
+	.footer--menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float: left;
 
+		.footer--menu--listitem {
+			display: inline-block;
 
-.footer--menu{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    	float: left;
-.footer--menu--listitem{
-    display: inline-block;
-
-.footer--menu--listitem--link{
-	color: $theme--darkgrey;
-	text-transform: capitalize;
+			.footer--menu--listitem--link {
+				color: $theme--darkgrey;
+				text-transform: capitalize;
+			}
+		}
+	}
+	.footer--logo {
+		float: right;
+	}
+	// ennd footer wrapper
 }
-}
-
-
-}
-
-.footer--logo{
-	float: right;
-}
-
- 
- 
-
-// ennd footer wrapper
- }

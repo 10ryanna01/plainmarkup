@@ -1,5 +1,4 @@
-// bower:
-// endbower
+// bower: // endbower
 @import "base/resetbasic";
 @import "base/utilities";
 @import "base/variables";
@@ -10,7 +9,7 @@
 
 ///// end improts start main styles
 
-.browserupgrade { 
+.browserupgrade {
 	margin: 0.2em 0;
 	background: #ccc;
 	color: #000;
@@ -19,22 +18,16 @@
 
 /* Space out content a bit */
 body {
-	
 	padding-bottom: 1.5rem;
 	// border: 4px solid red;
 	//transition breakpoints to ease
 	transition: all .5s ease-in-out;
 }
-
-
-
-.section--help--footerlink{
+.section--help--footerlink {
 	text-decoration: underline;
 	color: $theme--grey;
-.section--help--footerlink--text{
 
-font-weight: normal;
+	.section--help--footerlink--text {
+		font-weight: normal;
+	}
 }
-}
- 
- 

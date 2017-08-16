@@ -17,12 +17,10 @@
 		background: blue;
 	}
 }
-
 .header--wrapper {
-	
 	.header--letterhead {
 		// insertstyles 
-		.letterhead--stripe--blue  {
+		.letterhead--stripe--blue {
 			@extend .utility--position--relative;
 
 			&:before {
@@ -47,8 +45,7 @@
 			display: inline;
 		}
 	}
-
-//end letter head
+	//end letter head
 
 	.header--title {
 		.header--title--text {
@@ -57,5 +54,5 @@
 			}
 		}
 	}
-// close header
+	// close header
 }
